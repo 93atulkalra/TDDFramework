@@ -1,0 +1,37 @@
+package basePage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class loginPage extends BaseWebApp{
+	
+	@FindBy(xpath="//*[text()='Login']")
+	private WebElement login;
+
+	@FindBy(xpath="//*[text()='Signup']")
+	private WebElement signup;
+	
+	
+	public loginPage()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	public void clickLogin()
+	{
+		login.click();
+	}
+	
+	public void clickSignup()
+	{
+		signup.click();
+	}
+	
+	
+
+	
+
+}

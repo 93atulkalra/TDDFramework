@@ -1,0 +1,19 @@
+package basePage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class loginPage extends BaseWebApp{
+
+	
+	public loginPage()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	
+	
+
+	
+
+}

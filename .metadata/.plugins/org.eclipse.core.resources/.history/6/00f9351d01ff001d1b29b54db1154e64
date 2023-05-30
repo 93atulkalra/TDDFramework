@@ -1,0 +1,19 @@
+package basePage;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseWebApp {
+	
+	protected WebDriver driver;
+	
+	public BaseWebApp(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	public BaseWebApp(BaseWebApp page)
+	{
+		this.driver=page.driver;
+	}
+
+}

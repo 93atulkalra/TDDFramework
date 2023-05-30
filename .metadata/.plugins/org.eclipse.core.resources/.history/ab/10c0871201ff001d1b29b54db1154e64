@@ -1,0 +1,16 @@
+package basePage;
+
+import org.openqa.selenium.WebDriver;
+
+public class loginPage extends BaseWebApp{
+
+	public loginPage(BaseWebApp page) {
+	
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+	
+
+}

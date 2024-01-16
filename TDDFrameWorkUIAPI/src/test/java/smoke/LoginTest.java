@@ -5,11 +5,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-import baseExecution.baseFrontEnd;
+import baseExecution.BaseFrontEnd;
 import basePage.loginPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LoginTest extends baseFrontEnd {
+public class LoginTest extends BaseFrontEnd {
 
 	
 	@Test

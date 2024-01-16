@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="smoke.LoginTest">
+      <class name="smokeBE.postCallTestcases">
         <methods>
-          <include name="launchWebPage"/>
-          <include name="browserLaunchSetup"/>
+          <include name="validateNamePostAPI"/>
         </methods>
-      </class> <!-- smoke.LoginTest -->
+      </class> <!-- smokeBE.postCallTestcases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

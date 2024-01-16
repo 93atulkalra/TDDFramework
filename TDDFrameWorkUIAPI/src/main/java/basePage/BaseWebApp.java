@@ -2,7 +2,7 @@ package basePage;
 
 import org.openqa.selenium.WebDriver;
 
-import baseExecution.baseFrontEnd;
+import baseExecution.BaseFrontEnd;
 
 public class BaseWebApp {
 	
@@ -11,7 +11,7 @@ public class BaseWebApp {
 	public BaseWebApp()
 	{
 		super();
-		this.driver=baseFrontEnd.getDriver();
+		this.driver=BaseFrontEnd.getDriver();
 	}
 	
 	
